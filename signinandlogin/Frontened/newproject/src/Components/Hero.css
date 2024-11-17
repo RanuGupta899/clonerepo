@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero-container{
+    background-color: white;
+    height: 100vh;
+}
+.heading-section{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.grid{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.box-1{
+    height: 50px;
+    width: 33%;
+    border: 2px solid rgb(244, 239, 239);
+    border-radius: 5px;
+    margin-left: 20px;
+    /* background-color: red; */
+
+}
+.grid-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+    padding-top: 25px;
+}
